@@ -39,7 +39,7 @@ async function saveLink(env, newLink) {
 
 function getDefaultLinks() {
   return [
-    // Ai搜索
+    // 常用
     { category: 'ai-search', title: 'Google', url: 'https://www.google.com', icon: 'fab fa-google' },
     { category: 'ai-search', title: 'Bing', url: 'https://www.bing.com', icon: 'fab fa-microsoft' },
     { category: 'ai-search', title: 'websim', url: 'https://websim.ai/', icon: 'fas fa-search' },
@@ -58,7 +58,7 @@ function getDefaultLinks() {
     { category: 'ai-search', title: 'lmarena', url: 'https://lmarena.ai/', icon: 'fas fa-robot' },
     { category: 'ai-search', title: 'kelaode', url: 'https://kelaode.ai/', icon: 'fas fa-robot' },
 
-    // 社交媒体
+    // 影视
     { category: 'social', title: 'Facebook', url: 'https://www.facebook.com', icon: 'fab fa-facebook' },
     { category: 'social', title: 'Twitter', url: 'https://twitter.com', icon: 'fab fa-twitter' },
     { category: 'social', title: 'Instagram', url: 'https://www.instagram.com', icon: 'fab fa-instagram' },
@@ -67,7 +67,7 @@ function getDefaultLinks() {
     { category: 'social', title: 'Reddit', url: 'https://www.reddit.com', icon: 'fab fa-reddit' },
     { category: 'social', title: 'GitHub', url: 'https://github.com/', icon: 'fab fa-github' },
 
-    // 实用工具
+    // 在线工具
     { category: 'tools', title: 'Google翻译', url: 'https://translate.google.com', icon: 'fas fa-language' },
     { category: 'tools', title: '短链', url: 'https://d.186404.xyz/', icon: 'fas fa-link' },
     { category: 'tools', title: 'dynv6', url: 'https://dynv6.com/', icon: 'fas fa-network-wired' },
@@ -96,7 +96,7 @@ function getDefaultLinks() {
     { category: 'tools', title: 'forwardemail', url: 'https://forwardemail.net/', icon: 'fas fa-mail-bulk' },
     { category: 'tools', title: 'improvmx', url: 'https://improvmx.com/', icon: 'fas fa-mail-bulk' },
 
-    // 科技资讯
+    // 软件
     { category: 'tech-news', title: 'TechCrunch', url: 'https://www.techcrunch.com', icon: 'fas fa-newspaper' },
     { category: 'tech-news', title: 'Wired', url: 'https://www.wired.com', icon: 'fas fa-bolt' },
     { category: 'tech-news', title: 'The Verge', url: 'https://www.theverge.com', icon: 'fas fa-laptop' },
@@ -106,7 +106,7 @@ function getDefaultLinks() {
     { category: 'tech-news', title: '科技博客', url: 'https://b.186404.xyz/', icon: 'fas fa-blog' },
     { category: 'tech-news', title: 'cnbeta', url: 'https://www.cnbeta.com.tw/', icon: 'fas fa-info-circle' },
 
-    // 云存储
+    // 设计
     { category: 'cloud-storage', title: 'Dropbox', url: 'https://www.dropbox.com', icon: 'fas fa-cloud' },
     { category: 'cloud-storage', title: 'Google Drive', url: 'https://drive.google.com', icon: 'fab fa-google-drive' },
     { category: 'cloud-storage', title: 'OneDrive', url: 'https://onedrive.live.com', icon: 'fab fa-microsoft' },
@@ -114,7 +114,7 @@ function getDefaultLinks() {
     { category: 'cloud-storage', title: 'MediaFire', url: 'https://www.mediafire.com', icon: 'fas fa-file-alt' },
     { category: 'cloud-storage', title: 'MEGA', url: 'https://mega.nz', icon: 'fas fa-cloud-upload-alt' },
 
-    // 电子邮箱
+    // 后台
     { category: 'email', title: 'Gmail', url: 'https://mail.google.com', icon: 'fas fa-envelope' },
     { category: 'email', title: 'Outlook', url: 'https://outlook.live.com', icon: 'fab fa-microsoft' },
     { category: 'email', title: 'GMail临时邮箱', url: 'https://22.do/', icon: 'fas fa-envelope-open' },
