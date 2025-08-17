@@ -39,23 +39,10 @@ async function saveLink(env, newLink) {
 
 function getDefaultLinks() {
   return [
-    // 常用
-    { category: 'ai-search', title: 'Google', url: 'https://www.google.com', icon: 'fab fa-google' },
-
-    // 影视
-    { category: 'social', title: 'GitHub', url: 'https://github.com/', icon: 'fab fa-github' },
-
-    // 在线工具
-    { category: 'tools', title: 'improvmx', url: 'https://improvmx.com/', icon: 'fas fa-mail-bulk' },
-
     // 软件
-    { category: 'tech-news', title: 'TechCrunch', url: 'https://www.techcrunch.com', icon: 'fas fa-newspaper' },
-    
-    // 设计
-    { category: 'cloud-storage', title: 'Dropbox', url: 'https://www.dropbox.com', icon: 'fas fa-cloud' },
-    
-    // 后台
-    { category: 'email', title: 'Gmail', url: 'https://mail.google.com', icon: 'fas fa-envelope' },
+
+    // 其他
+
 
   ];
 }
